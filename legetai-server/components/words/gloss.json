@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_words_glosses",
+  "info": {
+    "name": "gloss",
+    "icon": "tag"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "lang": {
+      "type": "string",
+      "default": "eng",
+      "required": true
+    }
+  }
+}

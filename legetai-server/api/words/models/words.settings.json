@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "words",
+  "info": {
+    "name": "Words",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "headword": {
+      "type": "string",
+      "required": true
+    },
+    "glosses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "words.gloss"
+    },
+    "trans_phonemic": {
+      "type": "string"
+    },
+    "trans_phonetic": {
+      "type": "string"
+    },
+    "trans_romanization": {
+      "type": "string"
+    }
+  }
+}
